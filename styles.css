@@ -132,10 +132,24 @@ header .container {
     width: 100%;
 }
 
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .logo-container {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.brand-tagline {
+    font-size: 0.75rem;
+    color: var(--accent);
+    margin-top: -2px;
+    margin-left: 50px;
+    font-weight: 500;
 }
 
 .logo-img {
